@@ -6,6 +6,8 @@ import {
   SVGNamespace,
   DelegatedEvents
 } from "./constants";
+
+// rxcore在solid-js构建的时候替换成了 /solid/packages/solid/web/src/core
 import { root, effect, memo, getOwner, createComponent, sharedConfig } from "rxcore";
 import reconcileArrays from "./reconcile";
 export {
